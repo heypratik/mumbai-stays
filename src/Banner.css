@@ -1,0 +1,52 @@
+.banner {
+  background: url("https://assets.architecturaldigest.in/photos/60cb31445260d592f50ed8a2/4:3/w_1440,h_1080,c_limit/Mumbai-home-studio-osmosis-photos.jpg") center center;
+  height: 50vh;
+  position: relative;
+}
+
+.banner__info {
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.banner__search {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info > button {
+  background: rgb(213,125,105);
+  background: linear-gradient(90deg, rgba(213,125,105,1) 0%, rgba(228,166,116,1) 69%);
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.banner__info > button:hover {
+  background: rgb(213,125,105);
+  background: linear-gradient(90deg, rgba(213,125,105,1) 0%, rgba(228,166,116,1) 79%);
+    color: white;
+    border: none;
+  }
+  
+
+.banner__info > h5 {
+    margin-top: 10px;
+}

@@ -1,0 +1,54 @@
+.cardSwipper {
+    margin: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    min-height: 430px;
+    min-width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.button {
+    padding: 8px 15px;
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: black; 
+    border-radius: 5px;
+}
+  
+  .cardSwipper > img {
+    object-fit: fill;
+    min-width: 500px;
+    min-height: 200px;
+    width: 100%;
+  }
+  
+  .cardSwipper__info {
+      margin-top: -9px;
+      border-radius: 10px;
+      padding: 20px;
+      padding-top: 20px;
+      border: 1;
+    }
+
+    .bottom {
+        padding: 20px;
+      }
+  
+    .cardSwipper__info > h2 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    
+    .cardSwipper__info > h4 {
+      font-size: 14px;
+      font-weight: 300;
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+  
